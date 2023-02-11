@@ -1,7 +1,7 @@
 header {
     background-image: radial-gradient(#22007C,#140152);
     color:#FAFAFA;
-    padding-top: 40px;
+    padding-top: 20px;
     text-align: center;  
   }
   
@@ -9,8 +9,8 @@ header {
     font-size: 80px;
     font-family: 'Segoe UI', sans-serif;
     font-weight: normal;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   
   div.vr{
@@ -29,7 +29,7 @@ header {
     padding-bottom: 10%;
     color: #FAFAFA;
     font-weight: lighter;
-    padding-top: 40px;
+    padding-top: 20px;
   }
   
   mat-card {
@@ -41,7 +41,7 @@ header {
     text-align: center;
     align-items: center;
     margin-bottom: 150px;
-    padding: 40px;
+    padding: 30px;
     fill-opacity: 0.3;
     border-radius: 20px;
   }
