@@ -1,0 +1,33 @@
+<header class="row">
+  <h1>מה לובשים עכשיו</h1>
+</header>
+<body>
+  <mat-card>
+    <p class="card-title" *ngIf="temperature">
+      {{temperature | number: '1.0-0'}}&deg;
+    </p>
+    <div class="card-text">
+      <div class="row">
+        <div class="col">
+          <p class="myP" *ngIf="longitude">
+            Long: {{ longitude | number: '1.0-0' }}
+          </p>
+        </div>
+        <div class="col">
+          <div class="vr"></div>
+        </div>
+        <div class="col">
+          <p class="myP" *ngIf="latitude">
+            Lat: {{ latitude | number: '1.0-0'  }}
+          </p>
+        </div>
+      </div>
+      <hr />
+      <h6>{{city}}</h6>
+      <h3>המלצת היום</h3>
+        <p *ngIf="description">
+          {{ description }}
+        </p>
+    </div>
+  </mat-card>
+</body>

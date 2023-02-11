@@ -1,0 +1,84 @@
+header {
+    background-image: radial-gradient(#22007C,#140152);
+    color:#FAFAFA;
+    padding-top: 40px;
+    text-align: center;  
+  }
+  
+  h1{
+    font-size: 80px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: normal;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  
+  div.vr{
+    height: 30px;
+    margin-top: 10px;
+    opacity: 100%;
+    width: 1px;
+    background-color: #FAFAFA;
+  }
+  
+  body {
+    background-image: radial-gradient(#22007C,#140152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+    color: #FAFAFA;
+    font-weight: lighter;
+    padding-top: 40px;
+  }
+  
+  mat-card {
+    background-color: #140152;
+    color: #FAFAFA  ;
+    width: max-content;
+    height:max-content;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 150px;
+    padding: 40px;
+    fill-opacity: 0.3;
+    border-radius: 20px;
+  }
+  
+  p{
+    font-size: 30px;
+  }
+  
+  div.row{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    display: flex;
+    gap: 11px;
+  }
+  
+  p.myP{
+    vertical-align:text-bottom;
+    font-size: 30px;
+    width:max-content;
+    height: max-content;
+  }
+  
+  p.card-title{
+    font-weight: bold; 
+    font-size: 80px;
+  }
+  
+  hr{
+    size: 11px;
+    lighting-color: #FAFAFA;
+    opacity: 100%;
+    margin: 0;
+  }
+  
+  h6{
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  
